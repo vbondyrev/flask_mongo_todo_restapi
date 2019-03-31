@@ -63,10 +63,10 @@ toDoItemList11 = TodoItem(id_item="1", id_todo="4", text="Time Wasters", data="2
 toDoItemList12 = TodoItem(id_item="2", id_todo="4", text="Pleasant Activities", data="2019/01/01", status="Done")
 toDoItemList13 = TodoItem(id_item="3", id_todo="4", text="Trivia", data="2019/01/01", status="Done")
 
-toDoItemList.append(toDoItemList1.toJson())
-toDoItemList.append(toDoItemList2.toJson())
-toDoItemList.append(toDoItemList3.toJson())
-toDoItemList.append(toDoItemList4.toJson())
+toDoItemList.append(toDoItemList1.toJson2())
+toDoItemList.append(toDoItemList2.toJson2())
+toDoItemList.append(toDoItemList3.toJson2())
+toDoItemList.append(toDoItemList4.toJson2())
 
 
 class TestTodo():
